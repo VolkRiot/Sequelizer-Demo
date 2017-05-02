@@ -10,8 +10,7 @@ var book = seq.define('book',{
   title: Sequelize.STRING,
   author: Sequelize.STRING,
   genre: Sequelize.STRING,
-  page: Sequelize.INTEGER,
-  timestamps: false
+  page: Sequelize.INTEGER
 });
 
 book.sync().then(resp =>{
